@@ -23,9 +23,23 @@ Comando para inicializar git en un directorio
 Comando para ver el estado de los archivos
 - git status
 
+Comando para ver todas las versiones de mi proyecto
+- git log 
+- git log --oneline
+
+Comando para cambiar entre versiones
+
+- git checkout <nombre de la rama o id de la versión>
+- git checkout --.
+
 Pasos para crear una versión de mi código
 
 1. Agregar los cambios
 - git add .
 - git add *.js
 - git add hola.html
+
+2. Comprometer los archivos
+
+- git commit -m "Description del commit"
+
