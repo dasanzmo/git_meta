@@ -1,45 +1,45 @@
-#Configuración 
+# Configuración 
 
 Ver la versión de Git:
 
 - git -v
 - git --version
 
-Comandos para configurar Git por primera vez:
+# Comandos para configurar Git por primera vez:
 
 - git config --global user.name "Your name"
 - git config --global user.email "danielsanchezm92@gmail.com" (el correo registrado en github)
 
-Comandos para ver que usuario está configurado o con que correo electrónico
+# Comandos para ver que usuario está configurado o con que correo electrónico
 
 - git config --global user.name
 - git config --global user.email
 - git config --list
 
-Comando para inicializar git en un directorio
+# Comando para inicializar git en un directorio
 
 - git init
 
-Comando para ver el estado de los archivos
+# Comando para ver el estado de los archivos
 - git status
 
-Comando para ver todas las versiones de mi proyecto
+# Comando para ver todas las versiones de mi proyecto
 - git log 
 - git log --oneline
 
-Comando para cambiar entre versiones
+# Comando para cambiar entre versiones
 
 - git checkout <nombre de la rama o id de la versión>
-- git checkout --.
+- git checkout --. //Atajo
 
-Pasos para crear una versión de mi código
+# Pasos para crear una versión de mi código
 
-1. Agregar los cambios
+# 1. Agregar los cambios
 - git add .
 - git add *.js
 - git add hola.html
 
-2. Comprometer los archivos
+# 2. Comprometer los archivos
 
 - git commit -m "Description del commit"
 
