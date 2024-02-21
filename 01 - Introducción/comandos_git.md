@@ -42,4 +42,5 @@ Ver la versión de Git:
 # 2. Comprometer los archivos
 
 - git commit -m "Description del commit"
+- git commit -am "Description del commit" #Tiene que haber exisitido alguna vez al menos un add
 
