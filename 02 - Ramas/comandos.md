@@ -16,3 +16,4 @@ git merge nombre_rama
 
 # Eliminar archivos de git
 git rm --cached clasves2.txt
+
